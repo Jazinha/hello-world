@@ -1,0 +1,83 @@
+
+.square1 {
+  width:300px; 
+  height: 300px;
+  background-color: rgb(243 126 177);
+  color: #000000;
+  font-weight: bold;
+  font-size:20px; 
+} 
+
+.square2 {
+  width:300px; 
+  height: 300px;
+  background-color: #ffacd0; 
+  /* 
+  background-color: rgb(115 187 222); 
+  background-color: rgb(157 171 190);
+  */
+  color: #000000;
+  font-weight: bold;
+  font-size:20px;
+}  
+
+#chessp {
+  padding-left: 5px;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.col-4 {
+  flex: 0;
+  width: 30%; 
+  padding: 0;
+}
+ 
+#checkers {
+  margin-left: 23%;
+}  
+
+#chess {
+  text-align: center; 
+  font-size: 100px;  
+  padding-top: 50px;  
+  text-shadow: -1px -1px 0 #ffacd0, 
+  1px -1px 0 #ffacd0,
+ -1px 1px 0 #ffacd0,
+  1px 1px 0 #ffacd0;
+
+}
+/* 
+.modal {
+    background-color: #ffacd0;
+}
+*/ 
+
+.modal-header {
+  background-color: #dcb2c3; 
+  border-bottom: var(--bs-modal-header-border-width) solid #ffacd0;
+} 
+
+.modal-body {
+  background-color: #dcb2c3;
+} 
+
+.modal-footer {
+  background-color: #dcb2c3; 
+  border-top: var(--bs-modal-footer-border-width) solid #dcb2c3;
+}
+
+.btn-secondary {
+  --bs-btn-color: #252424;
+  --bs-btn-bg: #ffacd0;
+} 
+
+img.modal-image {
+  text-align: center;
+  width: 300px; /* Adjust the size as needed */
+  height: 300px; /* Adjust the size as needed */
+  object-fit: cover; /* Ensures the image fills the container while maintaining aspect ratio */ 
+  margin-left: 17%; 
+  margin-bottom: 15px; 
+  margin-right: 25%
+}

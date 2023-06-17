@@ -1,0 +1,75 @@
+
+
+.circle-svg {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .circle-shape {
+    fill: transparent;
+    stroke: transparent;
+  }
+  
+  .circle-text {
+    font-size: 14px;
+    text-anchor: middle;
+    fill: rgb(179, 14, 14);
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .circle-text {
+    animation: spin 7s linear infinite;
+    transform-origin: center center;
+    text-anchor: middle; 
+    font-weight: bold; 
+  } 
+
+#circle-word {
+    text-align: center;
+    margin-top: 70px; 
+    margin-bottom: 50px;
+}
+
+.welcome {
+  margin-top: 30px; 
+  font-weight: 700; 
+  font-size: 40px; 
+} 
+
+.skills {
+  margin-top: 25px;
+  font-size: 25px; 
+  margin-bottom: 30px; 
+} 
+
+.click-about {
+  margin-top: 30px;
+  font-weight: 700; 
+  font-size: 26px; 
+  color: rgb(204, 91, 140); 
+} 
+
+.heart-click {
+    font-size: 34px; 
+    margin-left: 7px;
+    margin-right: 7px;
+} 
+
+.projectstitle {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Palette Mosaic';
+  -webkit-text-stroke: 0.0001px black; 
+}
+

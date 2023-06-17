@@ -1,0 +1,17 @@
+.typewriter-container {
+  position: relative; 
+  margin-top: 70px;
+}
+
+.typewriter {
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+  

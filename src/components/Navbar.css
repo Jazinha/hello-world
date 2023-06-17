@@ -1,0 +1,73 @@
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+  font-family: 'Montserrat'; 
+} 
+
+.nav-link-padding:not(.nav-link-special) {
+  padding-top: 50px;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .navbar-nav .nav-link {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+.nav-link {
+  font-size: 20px;
+  margin: 0 40px; 
+  color: black; 
+  text-decoration: none; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover {
+  background-color: rgb(222, 126, 160);
+}
+
+.nav-link-special {
+  font-size: 90px;
+  font-weight: bold;
+  font-family: 'Palette Mosaic';
+  color: rgb(222, 126, 160);
+  -webkit-text-stroke: 0.0001px black;
+  text-decoration: underline; 
+} 
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/*@media (max-width: 768px) {
+  .navbar-nav {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .navbar-nav .nav-link {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/*When navigating to About page*/ 
+
+.navbar-nav .nav-item.active .nav-link {
+  color: rgb(255, 172, 208); 
+  font-weight: bold; 
+  /* Add any other styling for the active link */
+}
+
